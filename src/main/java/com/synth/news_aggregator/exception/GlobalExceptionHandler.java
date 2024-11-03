@@ -1,4 +1,4 @@
-// com/synth/newsaggregator/exception/GlobalExceptionHandler.java
+// com/synth/news_aggregator/exception/GlobalExceptionHandler.java
 package com.synth.news_aggregator.exception;
 
 import com.synth.news_aggregator.dto.ApiResponse;

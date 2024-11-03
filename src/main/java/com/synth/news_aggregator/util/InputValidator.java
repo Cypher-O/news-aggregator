@@ -1,5 +1,5 @@
 // com/example/news_aggregator/util/InputValidator.java
-package com.example.news_aggregator.util;
+package com.synth.news_aggregator.util;
 
 import org.springframework.stereotype.Component;
 import java.util.regex.Pattern;
