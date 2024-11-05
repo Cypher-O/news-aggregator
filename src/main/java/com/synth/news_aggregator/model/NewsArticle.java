@@ -1,5 +1,5 @@
 
-// com/synth/newsaggregator/model/NewsArticle.java
+// com/synth/news_aggregator/model/NewsArticle.java
 package com.synth.news_aggregator.model;
 
 import lombok.Data;
