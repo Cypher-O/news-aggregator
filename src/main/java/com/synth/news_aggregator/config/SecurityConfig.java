@@ -1,4 +1,3 @@
-// com/synth/news_aggregator/config/SecurityConfig.java
 package com.synth.news_aggregator.config;
 
 import com.synth.news_aggregator.security.JwtAuthenticationFilter;
@@ -12,7 +11,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import javax.servlet.Filter;
 
 @Configuration
 @EnableWebSecurity
@@ -20,21 +18,6 @@ import javax.servlet.Filter;
 public class SecurityConfig {
 
     private final JwtAuthenticationFilter jwtAuthFilter;
-
-    // @Bean
-    // public SecurityFilterChain securityFilterChain(HttpSecurity http) throws
-    // Exception {
-    // return http
-    // .csrf().disable()
-    // .authorizeRequests()
-    // .antMatchers("/api/auth/**").permitAll()
-    // .anyRequest().authenticated()
-    // .and()
-    // .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-    // .and()
-    // .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
-    // .build();
-    // }
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
