@@ -1,6 +1,8 @@
 package com.synth.news_aggregator.service;
 
-import com.synth.news_aggregator.dto.NewsArticleDto;
+import com.synth.news_aggregator.dto.NewsApiArticle;
+import com.synth.news_aggregator.dto.NewsApiResponse;
+// import com.synth.news_aggregator.dto.NewsArticleDto;
 import com.synth.news_aggregator.model.NewsArticle;
 import com.synth.news_aggregator.repository.NewsArticleRepository;
 import com.synth.news_aggregator.exception.ApiException;
